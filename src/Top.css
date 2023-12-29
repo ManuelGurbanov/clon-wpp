@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+  
+.archive {
+    margin-left: 20px;
+    margin-right: 50px;
+}

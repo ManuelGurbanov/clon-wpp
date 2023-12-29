@@ -1,0 +1,59 @@
+/* Chat.css */
+
+.chatContainer {
+    width: 100%;
+  }
+  
+  .chatButton {
+    display: flex;
+    align-items: center;
+    background-color: #272727;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+
+    color: white;
+  }
+  
+  .chatImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .chatInfo {
+    flex: 1;
+  }
+  
+  .chatName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .messageContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chatLastMessage {
+    margin: 0;
+    font-size: 14px;
+    color: #cacaca;
+  }
+  
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke-width: 2; /* Set stroke width */
+    stroke: #888; /* Default color for unseen state, adjust as needed */
+  }
+  
+  .checkmark.seen {
+    stroke: #008cff; /* Color for seen state, adjust as needed */
+  }
