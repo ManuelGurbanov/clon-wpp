@@ -13,8 +13,7 @@
     width: 100%;
     text-align: left;
     cursor: pointer;
-    border-bottom: 1px solid #ddd;
-
+    border-bottom: 1px solid #323232;
     color: white;
   }
   
@@ -56,4 +55,11 @@
   
   .checkmark.seen {
     stroke: #008cff; /* Color for seen state, adjust as needed */
+  }
+
+
+  /* Hover */
+
+  .chatButton:hover{
+    background-color: #171717;
   }
