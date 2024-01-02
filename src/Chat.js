@@ -19,7 +19,7 @@ const checkmarkSVG = (
   );
   
   const Chat = ({ name, lastMessage, imageUrl, seen }) => {
-    const { setChat, selectedChat } = useContext(ChatContext);
+    const { setChat } = useContext(ChatContext);
   
     const handleChatClick = () => {
       console.log(`Chat clicked: ${name}`);
