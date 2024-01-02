@@ -5,18 +5,22 @@ import Top from './Top';
 
 const ChatList = () => {
   const chats = [
-    { name: 'Yo', 
-    lastMessage: 'Llegué', 
-    imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHx8" ,
-     seen: true },
-     { name: 'Papá', 
-     lastMessage: 'Hola', 
-     imageUrl: "https://cdn-useast1.kapwing.com/collections/video_image-VTnKjcRrV.jpeg?Expires=1703998806&GoogleAccessId=dev-sa-videoprocessing%40kapwing-dev.iam.gserviceaccount.com&Signature=n5PybUqGUhH6F85Bl0irjN8MGV%2BNuHqTiOdAO1EzBTMw%2FzhdqDEizr9pajN0n3FwAJi28aAk4Dr9Woo7rxeqUAlJBwHLO6Zws30H7eMyjJ%2FFsGyVHeEDedcbrYZHTdrWTBb0a0p0z1ThcVaZG15GbtoAS8Kb5di9t1TitmCxDfNlkV52WaqENiApY9e%2B1kv5V2SaHIHXAnpdmfctXwWRqbeuMN8M%2FHOaUpr8J9svIScBG2aRbj75MrNU9mrApezXksMXpBH8z1lzyhjy7WAIn0Ob1z9d%2Flo2X7gTxSykiwRiv58ugKW606VbI8iIowj4q5ikc%2F8IJSP6BzsTMrnsAA%3D%3D" ,
-      seen: false },
-      { name: 'Hermano', 
-      lastMessage: 'Qué tal?', 
-      imageUrl: "https://pub-static.fotor.com/assets/projects/pages/c5e1a32d955342a1af735db0b779c3a9/300w/fotor-ee6dd582036e4d16a9d9701db31d890e.jpg" ,
-       seen: true },
+    { name: 'Mark Zukerberg', 
+    lastMessage: 'Hello Mr. Zukerberg', 
+    imageUrl: "https://imageio.forbes.com/specials-images/imageserve/65147bce590293ccd640cbf3/4x5-Mark-Zuckerberg-by-Guerin-Blask-for-Forbes/0x0.jpg?format=jpg&height=1350&width=1080" ,
+    seen: false },
+    { name: 'LeBron James', 
+    lastMessage: 'Nice game Bro', 
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg" ,
+      seen: true },
+    { name: 'Neymar Jr', 
+    lastMessage: 'Fulbo?', 
+    imageUrl: "https://static.dw.com/image/65887442_803.jpg" ,
+    seen: false },
+    { name: 'Carlitos Alcaraz', 
+    lastMessage: 'Felicitaciones chaval', 
+    imageUrl: "https://hips.hearstapps.com/hmg-prod/images/carlos-alcaraz-of-spain-in-action-during-his-mens-singles-news-photo-1620118767.?crop=0.669xw:1.00xh;0.107xw,0&resize=2048:*" ,
+    seen: true },
   ];
 
   return (

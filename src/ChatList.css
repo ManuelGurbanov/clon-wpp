@@ -2,4 +2,6 @@
     flex: 1;
     overflow-y: auto;
     border-right: 1px solid #ddd;
+
+    max-width: 340px;
   }
