@@ -1,4 +1,7 @@
 import './Chat.css';
+import React, { useContext } from 'react';
+import { ChatContext } from './ChatContext';
+
 const checkmarkSVG = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,16 +19,28 @@ const checkmarkSVG = (
   );
   
   const Chat = ({ name, lastMessage, imageUrl, seen }) => {
+    const { setChat, selectedChat } = useContext(ChatContext);
+  
+    const handleChatClick = () => {
+      console.log(`Chat clicked: ${name}`);
+      
+      // Update the global state when a chat is clicked
+      setChat({ name, lastMessage, imageUrl, seen });
+  
+      // Debug: Check the updated state
+      console.log('Updated chat state:', { name, lastMessage, imageUrl, seen });
+    };
+  
     return (
       <div className="chatContainer">
-        <button className="chatButton">
+        <button className="chatButton" onClick={handleChatClick}>
           <img className="chatImg" src={imageUrl} alt="Profile" />
           <div className="chatInfo">
             <h4 className="chatName">{name}</h4>
             <div className="messageContainer">
               <p className="chatLastMessage">
                 {lastMessage}
-                <span className={`checkmark ${seen ? 'seen' : ''}`}>
+                <span className={`checkmark ${selectedChat ? 'seen' : ''}`}>
                   {checkmarkSVG}
                 </span>
               </p>
@@ -35,5 +50,4 @@ const checkmarkSVG = (
       </div>
     );
   };
-  
 export default Chat;

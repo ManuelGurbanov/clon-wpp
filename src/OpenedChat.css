@@ -1,13 +1,9 @@
-.opened-chat-container {
-    flex: 2;
-    padding: 20px;
-    background-color: blue;
-  }
-
 .openedChatTop{
   display: flex;
   flex-direction: row;
-  height: 100px;
+  height: 73px;
+  width: 70vw;
+  border: 1px solid rgb(59, 59, 59);
 }
 .openedChatImg{
   margin: 20px 20px 0px 20px;
@@ -31,4 +27,20 @@
   display: flex;
   flex-direction: column;
   margin-top: 20px
+}
+
+.openedChatLastMessage {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wholeMessagesScreen{
+  /* background-color: blue; */
 }
