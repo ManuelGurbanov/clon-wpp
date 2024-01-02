@@ -4,9 +4,9 @@ import './OpenedChat.css';
 
 const OpenedChat = () => {
   const { selectedChat } = useContext(ChatContext);
-  const name = selectedChat ? selectedChat.name : "default";
-  const imageUrl = selectedChat ? selectedChat.imageUrl : "default_image_url";
-  const lastMessage = selectedChat ? selectedChat.lastMessage : "No messages yet";
+  const name = selectedChat ? selectedChat.name : "";
+  const imageUrl = selectedChat ? selectedChat.imageUrl : "";
+  const lastMessage = selectedChat ? selectedChat.lastMessage : "";
 
   return (
     <div>

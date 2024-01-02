@@ -41,7 +41,7 @@ const Top = () => {
     <div>
       <div className="profile-container">
         <img className="profileImg"
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
+         src="https://www.telegraph.co.uk/multimedia/archive/03249/archetypal-female-_3249633c.jpg?imwidth=680"
           alt="profile pic">
          </img>
           {communitiesSvg}

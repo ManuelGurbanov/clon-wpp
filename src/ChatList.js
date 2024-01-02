@@ -14,7 +14,7 @@ const ChatList = () => {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg" ,
       seen: true },
     { name: 'Neymar Jr', 
-    lastMessage: 'Fulbo?', 
+    lastMessage: 'Você pode jogar um jogo agora??', 
     imageUrl: "https://static.dw.com/image/65887442_803.jpg" ,
     seen: false },
     { name: 'Carlitos Alcaraz', 

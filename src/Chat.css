@@ -49,16 +49,13 @@
     width: 20px;
     height: 20px;
     fill: none;
-    stroke-width: 2; /* Set stroke width */
-    stroke: #888; /* Default color for unseen state, adjust as needed */
+    stroke-width: 2;
+    stroke: #888;
   }
   
   .checkmark.seen {
-    stroke: #008cff; /* Color for seen state, adjust as needed */
+    stroke: #008cff;
   }
-
-
-  /* Hover */
 
   .chatButton:hover{
     background-color: #171717;

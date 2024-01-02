@@ -1,46 +1,62 @@
-.openedChatTop{
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.openedChatTop {
   display: flex;
   flex-direction: row;
-  height: 73px;
-  width: 70vw;
+  height: 80px;
+  width: 80vw;
   border: 1px solid rgb(59, 59, 59);
+  position: relative;
 }
-.openedChatImg{
+
+.openedChatImg {
   margin: 20px 20px 0px 20px;
   width: 50px;
   height: 50px;
   border-radius: 60px;
 }
-.openedChatText{
+
+.openedChatText {
   color: white;
   margin: 0px 0px 10px 0px;
   font-size: medium;
 }
-.state{
+
+.state {
   opacity: 0.4;
 }
-.openedChatState{
+
+.openedChatState {
   color: rgb(137, 137, 137);
 }
 
-.openedChatTextsContainer{
+.openedChatTextsContainer {
   display: flex;
   flex-direction: column;
-  margin-top: 20px
+  margin-top: 20px;
+}
+
+.wholeMessagesScreen {
+  background-image: url('https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg');
+  background-position: center;
+
+  padding: 20px;
+  min-height: calc(100% - 80px);
+  position: relative;
+  box-sizing: border-box;
 }
 
 .openedChatLastMessage {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
   background-color: #4caf50;
   color: #fff;
   padding: 10px;
   border-radius: 10px;
   word-wrap: break-word;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.wholeMessagesScreen{
-  /* background-color: blue; */
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }

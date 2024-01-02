@@ -40,9 +40,9 @@ const checkmarkSVG = (
             <div className="messageContainer">
               <p className="chatLastMessage">
                 {lastMessage}
-                <span className={`checkmark ${selectedChat ? 'seen' : ''}`}>
-                  {checkmarkSVG}
-                </span>
+                <span className={`checkmark ${seen ? 'seen' : ''}`}>
+                {checkmarkSVG}
+              </span>
               </p>
             </div>
           </div>
